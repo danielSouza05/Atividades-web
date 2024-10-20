@@ -6,3 +6,5 @@ Nomes dos integrantes do grupo:
 - Miguel Hitoshi Takahashi 1111392421022
 - Raphael Trindade Olho 1111392421040 
 - Pedro Graciani de Souza 1111392421012 
+
+Trabalho feito pelo grupo do projeto integrador.
