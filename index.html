@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Formulário de inscrição</h1>
+    <br>
+    <form>
+        <label>Nome Completo</label>
+        <br>
+        <input type="text" name="Nome e sobrenome" id="nome" minlength="1" maxlength="200" placeholder="Nome" required>
+
+        <br><br><br><br>
+
+        <label>E-mail</label>
+        <br>
+        <input type="email" name="E-mail" id="email" minlength="1" maxlength="200" placeholder="E-mail" required>
+
+        <br><br><br><br>
+
+        <label>Telefone</label>
+        <br>
+        <input type="tel" name="Telefone" id="Telefone" minlength="11" maxlength="20" placeholder="(00)00000-0000" required>
+
+        <br><br><br><br>
+
+        <label>Data de nascimento</label>
+        <br>
+        <input type="date" name="Data" id="Data" required>
+
+        <br><br><br><br>
+
+        <label>Gênero</label>
+        <br>
+        <label><input type="radio" name="genero" value="Masculino" checked>Masculino</label>
+        <label><input type="radio" name="genero" value="Feminino" checked>Feminino</label>
+        <label><input type="radio" name="genero" value="Indefinido" checked>Indefinido</label>
+
+        <br><br><br><br>
+
+        <label>Tipo de inscrição</label>
+        <br> <br>
+        <select name="select">
+            <option>Palestrante</option>
+            <option>Participante</option>
+            <option>Voluntário</option>
+        </select>
+
+        <br><br><br><br>
+
+        <label>Mensagem</label>
+        <br>
+        <textarea placeholder="Escreva sua mensagem" minlength="1" maxlength="200"></textarea>
+
+        <br><br>
+
+        <button type="submit">Cadastrar</button>
+
+        <button type="reset">Limpar</button>
+    </form>
+
+</body>
+</html>
